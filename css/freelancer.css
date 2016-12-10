@@ -64,6 +64,10 @@ hr.star-primary:after {
   background-color: white;
   color: #2C3E50;
 }
+hr.star-primaryi:after {
+  background-color: #F7F7F7;
+  color: #2C3E50;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -504,8 +508,8 @@ fieldset[disabled] .btn-success.active {
   display: none;
 }
 .media-object{
-  width:150px;
-  height:150px;
+  max-width:100%;
+  max-height:100%;
 }
 
 .flexsection{
@@ -524,11 +528,12 @@ fieldset[disabled] .btn-success.active {
           justify-content:space-around;
 }
 .pic-child{
-width :20%;
+width :25%;
 }
 .info-child{
-  width:80%;
+  width:75%;
   padding:10px;
+  padding-left: 20px
 }
 @media (max-width: 1002px) {
   .flexsection{
@@ -546,4 +551,13 @@ width :20%;
     width:100%;
   }
 
+}
+hr.greybackground{
+  background-color: #f7f7f7;
+}
+.greybackground{
+  background-color: #f7f7f7;
+}
+.left-floater{
+  float:left !important;
 }
